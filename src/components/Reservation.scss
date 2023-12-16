@@ -1,0 +1,27 @@
+.reservation {
+  padding-bottom: 2px;
+  border-bottom: solid #cccccc 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.reservation-icon {
+  width: 2em;
+}
+
+.reservation-body {
+  margin-left: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  & > * {
+    margin-right: auto;
+  }
+}
+
+.reservation-username {
+  margin-right: 10px;
+}
