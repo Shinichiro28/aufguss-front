@@ -1,0 +1,56 @@
+@import "~bootstrap/scss/bootstrap";
+
+body { padding-top: 70px; }
+
+.navbar-header {
+  padding-left: 2em;
+}
+
+.navibar-header__url {
+  min-width: 300px;
+}
+
+.navibar-header__search {
+  margin-left: auto;
+  margin-right: 0.5em;
+}
+
+.navibar-header__search__button {
+  min-width: 80px;
+}
+
+.navibar-header__logout {
+  margin-right: 1em;
+}
+
+.event-add {
+  margin-left: auto;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  min-width: 200px;
+  margin: 0 auto;
+}
+
+.login-form__button {
+  margin-left: auto;
+
+  & > * {
+    margin-left: 10px;
+  }
+}
+
+.reservation {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 600px;
+}
+
+.reservation-post {
+  display: flex;
+  flex-direction: row;
+}
